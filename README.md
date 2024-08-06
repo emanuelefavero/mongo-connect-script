@@ -12,3 +12,7 @@ This Node.js script is used to establish a connection to a MongoDB database. It 
 5. The script will connect to the database thus preventing it from pausing due to inactivity
 
 > Tip: You could add this script to a cron job or a scheduled task to run it at regular intervals
+
+## License
+
+- [MIT](LICENSE.md)
