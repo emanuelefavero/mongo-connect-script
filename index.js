@@ -1,13 +1,11 @@
-import 'dotenv/config' // Load .env file
+import 'dotenv/config' // load .env file
 import mongoose from 'mongoose'
 
 const MONGO_URI = process.env.MONGO_URI
 
 async function connectToMongo() {
   try {
-    // Show a loading message
     console.log('Connecting to MongoDB...')
-
     await mongoose.connect(MONGO_URI)
 
     // List all collections in the database
